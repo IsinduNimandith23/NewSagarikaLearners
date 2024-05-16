@@ -1,0 +1,179 @@
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+
+.home_section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.home_first_img {
+  height: 100vh;
+  width: 100%;
+  object-fit: fill;
+}
+
+.moto {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.moto p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.moto h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.home_learn_btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  background-color: #d37408;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.first_section {
+  display: flex;
+  gap: 4rem;
+  margin-top: 6rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.coloumn1 {
+  flex: 1;
+}
+
+.coloumn1 h1 {
+  padding-bottom: 2rem;
+}
+
+.coloumn1 h3 {
+  padding-bottom: 1rem;
+}
+
+.coloumn1 p {
+  color: rgb(143, 145, 145);
+}
+
+.coloumn2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.home_about_btn {
+  margin-top: 20px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  background-color: #d37408;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.home_second_img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.second_section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+.second_h1 {
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.second_p {
+  text-align: left;
+  color: rgb(143, 145, 145);
+  padding-bottom: 3rem;
+}
+
+.second_container {
+  display: flex;
+  gap: 4rem;
+}
+
+.second_coloumn1 {
+  text-align: left;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.second_section_img {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+.second_card {
+  flex: 1;
+}
+
+.second_card h2 {
+  margin-bottom: 1rem;
+}
+
+.second_card p {
+  color: rgb(143, 145, 145);
+}
+
+.second_coloumn2 {
+  text-align: left;
+  flex: 1;
+}
+
+.third_section {
+  margin-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+.third_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.category {
+  text-align: center;
+}
+
+.category_img{
+  width: 5rem;
+}
+
+.category h2 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
