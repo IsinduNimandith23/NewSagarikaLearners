@@ -1,8 +1,6 @@
 .container {
   position: relative;
-  max-width: 100%;
   margin: 0 auto;
-  padding-inline: 1rem;
 }
 
 .home_section {
@@ -52,9 +50,10 @@
 .first_section {
   display: flex;
   gap: 4rem;
-  margin-top: 6rem;
   line-height: 1.5;
   text-align: left;
+  max-width: 1280px;
+  margin: 8rem auto;
 }
 
 .coloumn1 {
@@ -99,7 +98,8 @@
 .second_section {
   display: flex;
   flex-direction: column;
-  margin-top: 6rem;
+  max-width: 1280px;
+  margin: 8rem auto;
 }
 
 .second_h1 {
@@ -152,8 +152,9 @@
 }
 
 .third_section {
-  margin-top: 6rem;
   padding-bottom: 10rem;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .third_container {
