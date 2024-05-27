@@ -141,8 +141,9 @@ const Home = () => {
       <div className={styles.fourth_section}>
         <div className={styles.fourth_container}>
         <img src={homepage} className={styles.home_first_img} />
-          <div className={styles.fourth_catogory}>
-            <h1>Our Mission</h1>
+          <div className={styles.fourth_category}>
+            <h1>We Help Students to Pass Test & Get a License on the First Try
+            </h1>
             <p>
               Our mission is to provide the best driving lessons to our students
               and help them become safe and confident drivers. We are committed

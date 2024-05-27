@@ -14,6 +14,7 @@
   height: 100vh;
   width: 100%;
   object-fit: fill;
+  position: relative;
 }
 
 .moto {
@@ -177,4 +178,24 @@
 .category h2 {
   margin-top: 10px;
   font-size: 1.2rem;
+}
+
+.fourth_section {
+  position: relative;
+  padding-bottom: 10rem;
+}
+
+.fourth_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourth_category{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
 }
