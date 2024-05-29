@@ -16,6 +16,8 @@ const Home = () => {
           <button className={styles.home_learn_btn}>LEARN MORE</button>
         </div>
       </div>
+
+
       <div className={styles.first_section}>
         <div className={styles.coloumn1}>
           <h1>Schedule Your Driving Lessons with Us</h1>
@@ -33,11 +35,17 @@ const Home = () => {
             Driving School looks forward to serving you.
           </p>
           <button className={styles.home_about_btn}>About Us</button>
+          <hr className={styles.line} />
+          <div className={styles.contact_info}>
+          <h3 className={styles.first_section_questions}>Have Questions?</h3>
+          <h3><span className={styles.phone_number}>+94 112745183</span></h3>
+          </div>
         </div>
         <div className={styles.coloumn2}>
           <img src={secondimg} className={styles.home_second_img} alt="" />
         </div>
       </div>
+
 
       <div className={styles.second_section}>
         <h1 className={styles.second_h1}>Professional Driving Lessons</h1>
@@ -113,6 +121,7 @@ const Home = () => {
         </div>
       </div>
 
+
       <div className={styles.third_section}>
         <div className={styles.third_container}>
           <div className={styles.category}>
@@ -138,22 +147,31 @@ const Home = () => {
         </div>
       </div>
 
+
       <div className={styles.fourth_section}>
+      <img src={homepage} className={styles.home_first_img} />
         <div className={styles.fourth_container}>
-        <img src={homepage} className={styles.home_first_img} />
           <div className={styles.fourth_category}>
+            <div className={styles.fourth_first}>
             <h1>We Help Students to Pass Test & Get a License on the First Try
             </h1>
-            <p>
-              Our mission is to provide the best driving lessons to our students
-              and help them become safe and confident drivers. We are committed
-              to providing a safe and comfortable learning environment for our
-              students.
-            </p>
+            <h1>
+              Road Test
+            </h1>
+            </div>
+            <hr className={styles.fourth_section_line} />
+            <div className={styles.fourth_second}>
+            <img src={driver} alt="icon" className={styles.second_section_img} />
+            <h2>A to Z Driving Skills</h2>
+            <img src={driver} alt="icon" className={styles.second_section_img} />
+            <h2>Courses for Everyone</h2>
+            <img src={driver} alt="icon" className={styles.second_section_img} />
+            <h2>Car for Driving Tests</h2>
           </div>
+          </div>
+          
         </div>
       </div>
-
     </div>
   );
 };

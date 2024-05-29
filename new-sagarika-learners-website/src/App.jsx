@@ -4,6 +4,8 @@ import './App.css'
 
 import { Navbar } from './components/common-components/Navbar/Navbar';
 import Home from './pages/Home/Home';
+import Gallery from './pages/Gallery/Gallery';
+import About from './pages/About/About';
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </div>
   )

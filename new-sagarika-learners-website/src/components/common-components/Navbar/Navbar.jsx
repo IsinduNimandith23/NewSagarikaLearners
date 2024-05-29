@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-// import logo from "../../assets/logo.png";
+import logo from "../../../assets/logoM.png";
 
 export const Navbar = () => {
   useEffect(() => {
@@ -23,7 +23,7 @@ export const Navbar = () => {
   return (
     <nav>
       <div className="navContainer">
-        {/* <img src={logo} className="logo-light" alt="logo" /> */}
+        <img src={logo} className="logo-light" alt="logo" />
         <ul>
           <li>
             <NavLink to="/">Home</NavLink>

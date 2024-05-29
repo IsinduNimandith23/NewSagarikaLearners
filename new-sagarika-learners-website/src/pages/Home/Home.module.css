@@ -90,6 +90,28 @@
   cursor: pointer;
 }
 
+.line {
+  border: none;
+  height: 1px;
+  background-color: #d37408;
+  margin: 2rem 0;
+}
+
+.contact_info {
+  display: flex;
+  align-items: center; 
+}
+
+.first_section_questions{
+  color: rgb(175, 177, 177);
+}
+
+.phone_number {
+  font-size: 25px;
+  padding-left: 1rem;
+}
+
+
 .home_second_img {
   height: 100%;
   width: 100%;
@@ -187,6 +209,10 @@
 
 .fourth_container {
   display: flex;
+  width: 1280px;
+  gap: 4rem;
+  margin: 0 auto;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -198,4 +224,20 @@
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 1;
+}
+
+.fourth_first{
+  display: flex;
+}
+
+.fourth_section_line{
+  border: none;
+  height: 1px;
+  background-color: #fff;
+  margin: 2rem 0;
+
+}
+
+.fourth_second{
+  display: flex;
 }
