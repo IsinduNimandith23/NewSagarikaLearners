@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Gallery.module.css";
 import homepage from "../../assets/homepage.jpg";
-// Import your images here
 
 const Gallery = () => {
   return (

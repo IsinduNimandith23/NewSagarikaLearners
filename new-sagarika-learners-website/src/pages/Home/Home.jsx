@@ -68,6 +68,7 @@ const Home = () => {
                   Our instructors are highly trained and certified to teach you
                   everything you need to know about driving.
                 </p>
+                <button className={styles.second_section_btn}>Read More</button>
               </div>
             </div>
 
@@ -83,6 +84,7 @@ const Home = () => {
                   We offer flexible schedules to fit your needs. You can choose
                   the time that works best for you.
                 </p>
+                <button className={styles.second_section_btn}>Read More</button>
               </div>
             </div>
           </div>
@@ -100,6 +102,7 @@ const Home = () => {
                   Our vehicles are equipped with the latest safety features to
                   ensure your safety during your lessons.
                 </p>
+                <button className={styles.second_section_btn}>Read More</button>
               </div>
             </div>
 
@@ -115,6 +118,7 @@ const Home = () => {
                   Our vehicles are equipped with the latest safety features to
                   ensure your safety during your lessons.
                 </p>
+                <button className={styles.second_section_btn}>Read More</button>
               </div>
             </div>
           </div>
@@ -124,23 +128,23 @@ const Home = () => {
 
       <div className={styles.third_section}>
         <div className={styles.third_container}>
-          <div className={styles.category}>
-            <img src={license} alt="" className={styles.category_img}/>
+          <div className={styles.third_category}>
+            <img src={license} alt="" className={styles.third_section_img}/>
             <h1>56378</h1>
             <h4>Licenses Issued</h4>
           </div>
-          <div className={styles.category}>
-          <img src={license} alt="" className={styles.category_img}/>
+          <div className={styles.third_category}>
+          <img src={license} alt="" className={styles.third_section_img}/>
           <h1>56378</h1>
             <h4>Active Students</h4>
           </div>
-          <div className={styles.category}>
-          <img src={license} alt="" className={styles.category_img}/>
+          <div className={styles.third_category}>
+          <img src={license} alt="" className={styles.third_section_img}/>
           <h1>56378</h1>
             <h4>People Reviews</h4>
           </div>
-          <div className={styles.category}>
-          <img src={license} alt="" className={styles.category_img}/>
+          <div className={styles.third_category}>
+          <img src={license} alt="" className={styles.third_section_img}/>
           <h1>56378</h1>
             <h4>Training Hours</h4>
           </div>
@@ -168,6 +172,10 @@ const Home = () => {
             <img src={driver} alt="icon" className={styles.second_section_img} />
             <h2>Car for Driving Tests</h2>
           </div>
+          </div>
+
+          <div>
+            
           </div>
           
         </div>

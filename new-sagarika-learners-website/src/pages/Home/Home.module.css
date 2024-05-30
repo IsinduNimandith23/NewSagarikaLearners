@@ -169,6 +169,15 @@
   color: rgb(143, 145, 145);
 }
 
+.second_section_btn {
+  padding: 10px 0px;
+  font-size: 1rem;
+  background: none;
+  color: #d37408;
+  border: none;
+  cursor: pointer;
+}
+
 .second_coloumn2 {
   text-align: left;
   flex: 1;
@@ -176,7 +185,7 @@
 
 .third_section {
   padding-bottom: 10rem;
-  max-width: 1280px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -189,15 +198,18 @@
   padding: 20px;
 }
 
-.category {
+.third_category {
   text-align: center;
 }
 
-.category_img{
+.third_section_img{
   width: 5rem;
+  margin-bottom: 1rem;
 }
 
-.category h2 {
+.third_category h4 {
+  margin-bottom: 1rem;
+  color: rgb(143, 145, 145);
   margin-top: 10px;
   font-size: 1.2rem;
 }
