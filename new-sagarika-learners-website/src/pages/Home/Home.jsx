@@ -180,6 +180,11 @@ const Home = () => {
           
         </div>
       </div>
+
+
+      <div className={styles.fifth_section}>
+        
+      </div>
     </div>
   );
 };
