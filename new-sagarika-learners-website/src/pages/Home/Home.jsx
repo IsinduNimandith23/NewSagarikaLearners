@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Home.module.css";
 import homepage from "../../assets/homepage.jpg";
 import secondimg from "../../assets/secondimg.jpg";
@@ -13,12 +12,12 @@ const Home = () => {
         <div className={styles.moto}>
           <p>Our students drive better</p>
           <h1>Learn To Drive With Confidence</h1>
-          <button className={styles.home_learn_btn}>LEARN MORE</button>
+          <button className={styles.home_learn_btn}>CONTACT US</button>
         </div>
       </div>
 
 
-      <div className={styles.first_section}>
+      <section className={styles.first_section}>
         <div className={styles.coloumn1}>
           <h1>Schedule Your Driving Lessons with Us</h1>
           <h3>
@@ -30,7 +29,7 @@ const Home = () => {
             complete satisfaction in your driving experience so that you can
             handle driving on your own, with skill, safety, caution, and respect
             for all other drivers and pedestrians. We are patient and totally
-            professional to handle your goals of earning your driver's license.
+            professional to handle your goals of earning your drivers license.
             Service, Security, and Success is what we are all about. Viva
             Driving School looks forward to serving you.
           </p>
@@ -44,10 +43,10 @@ const Home = () => {
         <div className={styles.coloumn2}>
           <img src={secondimg} className={styles.home_second_img} alt="" />
         </div>
-      </div>
+      </section>
 
 
-      <div className={styles.second_section}>
+      <section className={styles.second_section}>
         <h1 className={styles.second_h1}>Professional Driving Lessons</h1>
         <p className={styles.second_p}>
           We are an approved driving school and we are devoted to organizing
@@ -123,10 +122,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
 
-      <div className={styles.third_section}>
+      <section className={styles.third_section}>
         <div className={styles.third_container}>
           <div className={styles.third_category}>
             <img src={license} alt="" className={styles.third_section_img}/>
@@ -149,42 +148,9 @@ const Home = () => {
             <h4>Training Hours</h4>
           </div>
         </div>
-      </div>
+      </section>
 
-
-      <div className={styles.fourth_section}>
-      <img src={homepage} className={styles.home_first_img} />
-        <div className={styles.fourth_container}>
-          <div className={styles.fourth_category}>
-            <div className={styles.fourth_first}>
-            <h1>We Help Students to Pass Test & Get a License on the First Try
-            </h1>
-            <h1>
-              Road Test
-            </h1>
-            </div>
-            <hr className={styles.fourth_section_line} />
-            <div className={styles.fourth_second}>
-            <img src={driver} alt="icon" className={styles.second_section_img} />
-            <h2>A to Z Driving Skills</h2>
-            <img src={driver} alt="icon" className={styles.second_section_img} />
-            <h2>Courses for Everyone</h2>
-            <img src={driver} alt="icon" className={styles.second_section_img} />
-            <h2>Car for Driving Tests</h2>
-          </div>
-          </div>
-
-          <div>
-            
-          </div>
-          
-        </div>
-      </div>
-
-
-      <div className={styles.fifth_section}>
-        
-      </div>
+      
     </div>
   );
 };

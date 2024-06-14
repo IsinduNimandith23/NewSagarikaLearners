@@ -1,8 +1,8 @@
-import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import { Navbar } from './components/common-components/Navbar/Navbar';
+import Footer from './components/common-components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Gallery from './pages/Gallery/Gallery';
 import About from './pages/About/About';
@@ -19,6 +19,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
